@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Archery - Outdoor Games Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to right, #e1f5fe, #fff3e0);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero {
+      background-image: url("Archey1.jpeg"); 
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero h1, .hero h2 {
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+
+    .section-title {
+      color: #0288d1;
+    }
+
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+
+    footer {
+      background: linear-gradient(to right, #0277bd, #039be5);
+      color: white;
+      padding: 10px 0;
+    }
+
+    .content {
+      padding: 40px 20px;
+    }
+
+    .short-version {
+      background-color: #e0f7fa;
+      border-left: 6px solid #0288d1;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    .short-version h4 {
+      color: #01579b;
+    }
+
+    .short-version p {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      color: #444444;
+    }
+
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero h2 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-screen hero section -->
+  <div class="hero">
+    <h1>Welcome to Archery World</h1>
+    <h2>Archery – Precision, Focus, and Control</h2>
+  </div>
+
+  <!-- Main content -->
+  <div class="container content">
+    <h3 class="section-title">What is Archery?</h3>
+    <p>
+      Archery is a precision sport in which players use a bow to shoot arrows at a circular target. Points are awarded based on how close the arrow lands to the center of the target. It’s a sport of calm focus, discipline, and technical accuracy.
+    </p>
+    <p>
+      There are different styles including target archery, field archery, and 3D archery. Archery is both an Olympic sport and a popular recreational activity worldwide.
+    </p>
+
+    <h4 class="mt-4 text-success">Key Features</h4>
+    <ul>
+      <li>Played with a bow and arrows aimed at a target</li>
+      <li>Can be individual or team-based</li>
+      <li>Requires strong mental focus and steady technique</li>
+      <li>Outdoor and indoor versions available</li>
+      <li>Olympic-recognized and globally practiced</li>
+    </ul>
+
+    <h4 class="mt-4 text-success">History & Growth</h4>
+    <p>
+      Archery dates back thousands of years to ancient hunting and warfare. It evolved into a competitive sport and was reintroduced into the Olympic Games in 1972. Today, World Archery Federation governs global competitions.
+    </p>
+
+    <h4 class="mt-4 text-success">Why Archery Stands Out</h4>
+    <ul>
+      <li>Enhances patience, concentration, and muscle control</li>
+      <li>Low-impact and suitable for all ages</li>
+      <li>Fosters calmness and self-discipline</li>
+      <li>Available in schools, academies, and competitive circuits</li>
+    </ul>
+
+    <!-- Highlighted Short Version -->
+    <div class="short-version">
+      <h4>Short Version</h4>
+      <p>
+        Archery is a sport of focus and finesse, where players shoot arrows at a target to test accuracy. It is ancient, peaceful, and empowering — great for both competition and relaxation.
+      </p>
+    </div>
+
+    <!-- Optional Learn More Button -->
+    <p>
+      <a href="index.html" class="btn btn-secondary mt-4">← Back to Home</a>
+      <a href="https://en.wikipedia.org/wiki/Archery" target="_blank" class="btn btn-outline-primary mt-4">Learn More</a>
+    </p>
+  </div>
+
+</body>
+</html>

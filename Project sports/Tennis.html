@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tennis - Outdoor Games Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to right, #f0fff0, #e0f7fa);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero {
+      background-image: url("tennis1.webp"); 
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero h1, .hero h2 {
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+
+    .section-title {
+      color: #009688;
+    }
+
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+
+    footer {
+      background: linear-gradient(to right, #004d40, #00796b);
+      color: white;
+      padding: 10px 0;
+    }
+
+    .content {
+      padding: 40px 20px;
+    }
+
+    .short-version {
+      background-color: #e0f2f1;
+      border-left: 6px solid #00796b;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    .short-version h4 {
+      color: #004d40;
+    }
+
+    .short-version p {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      color: #444444;
+    }
+
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero h2 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-screen hero section -->
+  <div class="hero">
+    <h1>Welcome to Tennis World</h1>
+    <h2>Tennis – A Sport of Skill and Endurance</h2>
+  </div>
+
+  <!-- Main content -->
+  <div class="container content">
+    <h3 class="section-title">What is Tennis?</h3>
+    <p>
+      Tennis is a fast-paced racket sport played between two (singles) or four (doubles) players. The aim is to hit the ball over the net into the opponent’s court in a way they can't return it.
+    </p>
+    <p>
+      Matches are played on grass, clay, or hard courts and are divided into sets and games. Players need strength, precision, and agility to win points and outplay their opponents.
+    </p>
+
+    <h4 class="mt-4 text-success">Key Features</h4>
+    <ul>
+      <li>Played with rackets and a felt-covered rubber ball</li>
+      <li>Singles (1v1) or Doubles (2v2)</li>
+      <li>Requires speed, technique, and endurance</li>
+      <li>Scoring: Points, Games, Sets</li>
+      <li>Global tournaments: Wimbledon, US Open, Australian Open, French Open</li>
+    </ul>
+
+    <h4 class="mt-4 text-success">History & Growth</h4>
+    <p>
+      Tennis evolved from a medieval French game and was formalized in the late 19th century. It is now one of the most watched and played sports worldwide, with a strong international professional circuit.
+    </p>
+
+    <h4 class="mt-4 text-success">Why Tennis Stands Out</h4>
+    <ul>
+      <li>Improves reflexes, fitness, and mental focus</li>
+      <li>Individual and doubles gameplay options</li>
+      <li>Played both recreationally and professionally</li>
+      <li>Can be played on various surfaces year-round</li>
+    </ul>
+
+    <!-- Highlighted Short Version -->
+    <div class="short-version">
+      <h4>Short Version</h4>
+      <p>
+        Tennis is a competitive racket sport played on various surfaces. It builds stamina, coordination, and mental sharpness while offering individual glory and global fanfare.
+      </p>
+    </div>
+
+    <!-- Optional Learn More Button -->
+    <p>
+      <a href="index.html" class="btn btn-secondary mt-4">← Back to Home</a>
+      <a href="https://en.wikipedia.org/wiki/Tennis" target="_blank" class="btn btn-outline-primary mt-4">Learn More</a>
+    </p>
+  </div>
+
+</body>
+</html>

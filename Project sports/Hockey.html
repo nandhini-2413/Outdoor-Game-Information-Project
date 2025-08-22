@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hockey - Outdoor Games Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to right, #e3f2fd, #fff8e1);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero {
+      background-image: url("Hockey1.jpg"); 
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero h1, .hero h2 {
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+
+    .section-title {
+      color: #1976d2;
+    }
+
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+
+    footer {
+      background: linear-gradient(to right, #0d47a1, #1565c0);
+      color: white;
+      padding: 10px 0;
+    }
+
+    .content {
+      padding: 40px 20px;
+    }
+
+    .short-version {
+      background-color: #e8f5e9;
+      border-left: 6px solid #43a047;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    .short-version h4 {
+      color: #2e7d32;
+    }
+
+    .short-version p {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      color: #444444;
+    }
+
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero h2 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-screen hero section -->
+  <div class="hero">
+    <h1>Welcome to Hockey World</h1>
+    <h2>Hockey – Fast-Paced and Fierce</h2>
+  </div>
+
+  <!-- Main content -->
+  <div class="container content">
+    <h3 class="section-title">What is Hockey?</h3>
+    <p>
+      Hockey is a team sport played with curved sticks and a small hard ball. The objective is to score goals by driving the ball into the opposing team’s net. It’s played on a large grass or artificial turf field.
+    </p>
+    <p>
+      Each team has 11 players including a goalkeeper. It’s known for its speed, precision, and demanding teamwork, requiring players to maintain control and awareness in fast-moving play.
+    </p>
+
+    <h4 class="mt-4 text-success">Key Features</h4>
+    <ul>
+      <li>11 players per team</li>
+      <li>Played with sticks and a ball on a turf field</li>
+      <li>Fast-paced with short passes and dribbles</li>
+      <li>Physical and strategic</li>
+      <li>Olympic sport with strong international following</li>
+    </ul>
+
+    <h4 class="mt-4 text-success">History & Growth</h4>
+    <p>
+      Field hockey originated in ancient civilizations and was formalized in England in the 19th century. It is especially popular in India, the Netherlands, Australia, and Germany. Hockey India governs the sport nationally.
+    </p>
+
+    <h4 class="mt-4 text-success">Why Hockey Stands Out</h4>
+    <ul>
+      <li>Improves reflexes, hand-eye coordination, and stamina</li>
+      <li>Builds strategy, communication, and teamwork</li>
+      <li>Minimal gear required apart from stick and ball</li>
+      <li>Fast and exciting — great for spectators and players</li>
+    </ul>
+
+    <!-- Highlighted Short Version -->
+    <div class="short-version">
+      <h4>Short Version</h4>
+      <p>
+        Hockey is a thrilling stick-and-ball team sport demanding speed, coordination, and tactical play. With Olympic prestige and grassroots popularity, it remains one of the most beloved sports worldwide.
+      </p>
+    </div>
+
+    <!-- Optional Learn More Button -->
+    <p>
+      
+      <a href="index.html" class="btn btn-secondary mt-4">← Back to Home</a>
+      <a href="https://en.wikipedia.org/wiki/Field_hockey" target="_blank" class="btn btn-outline-primary mt-4">Learn More</a>
+    </p>
+  </div>
+
+</body>
+</html>

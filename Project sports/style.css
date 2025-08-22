@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f0f8ff, #e0ffff);
+}
+
+.navbar {
+  background: linear-gradient(to right, #c3ff00, #00ccff);
+}
+
+.hero {
+  background: url('frist pic back.webp') no-repeat center center/cover;
+  color: black;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 4px black;
+  font-size: 2.5rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  background-color: #f8f9fa;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #ff5722;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e64a19;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+footer {
+  background: linear-gradient(to right, #0066ff, #00ccff);
+  color: white;
+}

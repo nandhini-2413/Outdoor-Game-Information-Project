@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rugby - Outdoor Games Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to right, #fce4ec, #e3f2fd);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero {
+      background-image: url("Rubby1.jpg"); 
+      background-size: cover;
+      background-position: middle;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero h1, .hero h2 {
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+
+    .section-title {
+      color: #c2185b;
+    }
+
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+
+    footer {
+      background: linear-gradient(to right, #880e4f, #ad1457);
+      color: white;
+      padding: 10px 0;
+    }
+
+    .content {
+      padding: 40px 20px;
+    }
+
+    .short-version {
+      background-color: #fce4ec;
+      border-left: 6px solid #c2185b;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    .short-version h4 {
+      color: #ad1457;
+    }
+
+    .short-version p {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      color: #444444;
+    }
+
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero h2 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-screen hero section -->
+  <div class="hero">
+    <h1>Welcome to Rugby World</h1>
+    <h2>Rugby – Strength, Strategy, and Speed</h2>
+  </div>
+
+  <!-- Main content -->
+  <div class="container content">
+    <h3 class="section-title">What is Rugby?</h3>
+    <p>
+      Rugby is a high-intensity contact sport played between two teams who aim to score tries by grounding the ball in the opponent’s in-goal area or kicking it between the goalposts. It emphasizes teamwork, physical strength, and tactical play.
+    </p>
+    <p>
+      Played with an oval-shaped ball, Rugby has several variants including Rugby Union (15 players), Rugby League (13 players), and Rugby Sevens (7 players).
+    </p>
+
+    <h4 class="mt-4 text-success">Key Features</h4>
+    <ul>
+      <li>Played on a rectangular grass field with H-shaped goalposts</li>
+      <li>Two teams: Union (15 players) or League (13 players)</li>
+      <li>Uses tackling, passing, scrums, line-outs, and rucks</li>
+      <li>Points scored through tries, conversions, and penalty kicks</li>
+      <li>Known for intense physical engagement and strategy</li>
+    </ul>
+
+    <h4 class="mt-4 text-success">History & Growth</h4>
+    <p>
+      Rugby originated in England in the 19th century and quickly spread worldwide. It is especially popular in New Zealand, South Africa, England, Australia, and France. Governed by World Rugby, the sport is part of the Olympic Games (Rugby Sevens).
+    </p>
+
+    <h4 class="mt-4 text-success">Why Rugby Stands Out</h4>
+    <ul>
+      <li>Builds physical strength, endurance, and toughness</li>
+      <li>Requires deep coordination and game awareness</li>
+      <li>Encourages team bonding and respect</li>
+      <li>Exciting to watch and thrilling to play</li>
+    </ul>
+
+    <!-- Highlighted Short Version -->
+    <div class="short-version">
+      <h4>Short Version</h4>
+      <p>
+        Rugby is a powerful team sport involving tackling, passing, and scoring tries. It blends brute strength with strategic finesse and is celebrated worldwide for its passion and sportsmanship.
+      </p>
+    </div>
+
+    <!-- Optional Learn More Button -->
+    <p>
+      <a href="index.html" class="btn btn-secondary mt-4">← Back to Home</a>
+      <a href="https://en.wikipedia.org/wiki/Rugby_football" target="_blank" class="btn btn-outline-primary mt-4">Learn More</a>
+    </p>
+  </div>
+
+</body>
+</html>

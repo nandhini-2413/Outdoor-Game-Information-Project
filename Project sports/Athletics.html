@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Athletics - Outdoor Games Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to right, #fefefe, #e0f7fa);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero {
+      background-image: url("Athletes1.jpg"); 
+      background-size: cover;
+      background-position: middle;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero h1, .hero h2 {
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+
+    .section-title {
+      color: #ef6c00;
+    }
+
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+
+    footer {
+      background: linear-gradient(to right, #ef6c00, #f57c00);
+      color: white;
+      padding: 10px 0;
+    }
+
+    .content {
+      padding: 40px 20px;
+    }
+
+    .short-version {
+      background-color: #fff3e0;
+      border-left: 6px solid #fb8c00;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    .short-version h4 {
+      color: #e65100;
+    }
+
+    .short-version p {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      color: #444444;
+    }
+
+    ul li strong {
+      color: #1e88e5;
+    }
+
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero h2 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-screen hero section -->
+  <div class="hero">
+    <h1>Welcome to the World of Athletics</h1>
+    <h2>Athletics – Strength, Speed, and Endurance</h2>
+  </div>
+
+  <!-- Main content -->
+  <div class="container content">
+    <h3 class="section-title">What is Athletics?</h3>
+    <p>
+      Athletics is a collection of sporting events that involve competitive running, jumping, throwing, and walking. It is one of the oldest sports categories and is central to the Olympic Games.
+    </p>
+
+    <h4 class="mt-4 text-success">Types of Athletics Events</h4>
+    <ul>
+      <li><strong>Track Events:</strong> 100m, 200m, 400m, 800m, 1500m, hurdles, 4×100m relay, 4×400m relay</li>
+      <li><strong>Field Events:</strong> Long jump, triple jump, high jump, pole vault, shot put, discus, javelin, hammer throw</li>
+      <li><strong>Combined Events:</strong> Decathlon (men), Heptathlon (women)</li>
+      <li><strong>Road Events:</strong> Marathon, race walking (20km, 50km)</li>
+    </ul>
+
+    <h4 class="mt-4 text-success">Key Features</h4>
+    <ul>
+      <li>Involves speed, strength, technique, and endurance</li>
+      <li>Can be individual or team-based (relays)</li>
+      <li>Simple equipment required — often just shoes and a track</li>
+      <li>Encourages lifetime fitness and physical development</li>
+    </ul>
+
+    <h4 class="mt-4 text-success">History & Growth</h4>
+    <p>
+      Athletics has roots in ancient Greek competitions. It became a central part of the modern Olympic Games starting in 1896. Governed globally by World Athletics, it is practiced in nearly every country at all levels.
+    </p>
+
+    <h4 class="mt-4 text-success">Why Athletics Stands Out</h4>
+    <ul>
+      <li>Builds core physical abilities in youth and adults</li>
+      <li>Accessible and affordable to practice</li>
+      <li>Promotes discipline, determination, and mental strength</li>
+      <li>Foundation for many other sports and training programs</li>
+    </ul>
+
+    <!-- Highlighted Short Version -->
+    <div class="short-version">
+      <h4>Short Version</h4>
+      <p>
+        Athletics includes track and field events, road races, and combined competitions that test speed, strength, and stamina. It is a universal sport that forms the heart of the Olympic tradition.
+      </p>
+    </div>
+
+    <!-- Optional Learn More Button -->
+    <p>
+      <a href="index.html" class="btn btn-secondary mt-4">← Back to Home</a>
+      <a href="https://en.wikipedia.org/wiki/Athletics_(sport)" target="_blank" class="btn btn-outline-primary mt-4">Learn More</a>
+    </p>
+  </div>
+
+</body>
+</html>

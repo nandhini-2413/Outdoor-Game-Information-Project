@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baseball - Outdoor Games Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to right, #fff8e1, #e3f2fd);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero {
+      background-image: url("Baseball1.webp"); 
+      background-size: cover;
+      background-position: middle;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero h1, .hero h2 {
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+
+    .section-title {
+      color: #f57c00;
+    }
+
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+
+    footer {
+      background: linear-gradient(to right, #e65100, #ef6c00);
+      color: white;
+      padding: 10px 0;
+    }
+
+    .content {
+      padding: 40px 20px;
+    }
+
+    .short-version {
+      background-color: #ffe0b2;
+      border-left: 6px solid #ef6c00;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    .short-version h4 {
+      color: #e65100;
+    }
+
+    .short-version p {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      color: #444444;
+    }
+
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero h2 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-screen hero section -->
+  <div class="hero">
+    <h1>Welcome to Baseball World</h1>
+    <h2>Baseball – America’s Pastime, the World’s Game</h2>
+  </div>
+
+  <!-- Main content -->
+  <div class="container content">
+    <h3 class="section-title">What is Baseball?</h3>
+    <p>
+      Baseball is a bat-and-ball game played between two teams of nine players each. The goal is to score runs by hitting a pitched ball and running around a series of four bases in a diamond-shaped field.
+    </p>
+    <p>
+      The batting team tries to score while the fielding team attempts to get batters “out” through catching, tagging, or throwing them out. Games are played in innings, and the team with the most runs at the end wins.
+    </p>
+
+    <h4 class="mt-4 text-success">Key Features</h4>
+    <ul>
+      <li>Played with a bat, ball, and gloves</li>
+      <li>Teams take turns batting and fielding</li>
+      <li>Focuses on timing, reflexes, and precision</li>
+      <li>Professional leagues like MLB (USA), NPB (Japan)</li>
+      <li>Played worldwide, especially in the Americas and Asia</li>
+    </ul>
+
+    <h4 class="mt-4 text-success">History & Growth</h4>
+    <p>
+      Baseball evolved in the United States in the 19th century and became the country’s national pastime. Today, it's a global sport with international competitions like the World Baseball Classic and baseball at the Olympics.
+    </p>
+
+    <h4 class="mt-4 text-success">Why Baseball Stands Out</h4>
+    <ul>
+      <li>Combines mental focus with physical skill</li>
+      <li>Encourages teamwork, communication, and anticipation</li>
+      <li>Exciting strategic depth and individual glory moments</li>
+      <li>Accessible in parks, fields, and schools worldwide</li>
+    </ul>
+
+    <!-- Highlighted Short Version -->
+    <div class="short-version">
+      <h4>Short Version</h4>
+      <p>
+        Baseball is a thrilling bat-and-ball sport where teams take turns batting and fielding. Known for its strategy and moments of brilliance, it's a deeply loved game around the world.
+      </p>
+    </div>
+
+    <!-- Optional Learn More Button -->
+    <p>
+       <a href="index.html" class="btn btn-secondary mt-4">← Back to Home</a>
+      <a href="https://en.wikipedia.org/wiki/Baseball" target="_blank" class="btn btn-outline-primary mt-4">Learn More</a>
+    </p>
+  </div>
+
+</body>
+</html>

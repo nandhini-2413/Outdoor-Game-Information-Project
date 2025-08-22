@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basketball - Outdoor Games Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to right, #e1f5fe, #fff3e0);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero {
+      background-image: url("Basketball.jpg"); 
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero h1, .hero h2 {
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+
+    .section-title {
+      color: #0288d1;
+    }
+
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+
+    footer {
+      background: linear-gradient(to right, #0277bd, #039be5);
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .content {
+      padding: 40px 20px;
+    }
+
+    .short-version {
+      background-color: #e0f7fa;
+      border-left: 6px solid #0288d1;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    .short-version h4 {
+      color: #01579b;
+    }
+
+    .short-version p {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      color: #444444;
+    }
+
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero h2 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Welcome to Basketball World</h1>
+    <h2>Basketball – Speed, Skill, and Team Play</h2>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container content">
+    <h3 class="section-title">What is Basketball?</h3>
+    <p>
+      Basketball is a fast-paced sport played between two teams of five players who aim to score by shooting a ball through the opposing team’s hoop. It's known for its exciting gameplay, high jumps, and strategic teamwork.
+    </p>
+    <p>
+      Players dribble, pass, and shoot to score points, while defending against the opponent. The team with the most points at the end of four quarters wins the game. It's played both indoors and outdoors, and is popular at schools, colleges, and professional levels worldwide.
+    </p>
+
+    <h4 class="mt-4 text-success">Key Features</h4>
+    <ul>
+      <li>5 players per team on the court</li>
+      <li>Scoring via field goals (2 or 3 points) and free throws (1 point)</li>
+      <li>High-energy sport requiring coordination and agility</li>
+      <li>Played in 4 quarters of 10–12 minutes each</li>
+      <li>Extremely popular Olympic and professional sport</li>
+    </ul>
+
+    <h4 class="mt-4 text-success">History & Growth</h4>
+    <p>
+      Basketball was invented by Dr. James Naismith in 1891 in the USA. Originally designed as an indoor sport for athletes during winter, it quickly spread globally. Today, the NBA (National Basketball Association) is the premier professional league, and basketball is one of the most watched sports worldwide.
+    </p>
+
+    <h4 class="mt-4 text-success">Why Basketball Stands Out</h4>
+    <ul>
+      <li>Fast-paced and exciting to watch and play</li>
+      <li>Boosts teamwork, reflexes, and physical fitness</li>
+      <li>Requires minimal equipment — just a ball and hoop</li>
+      <li>Accessible to all ages and widely promoted in schools</li>
+    </ul>
+
+    <!-- Highlighted Short Version -->
+    <div class="short-version">
+      <h4>Short Version</h4>
+      <p>
+        Basketball is a dynamic team sport where players aim to score by shooting the ball into a hoop. It’s a game of skill, speed, and strategy, loved by millions around the world.
+      </p>
+    </div>
+
+    <!-- Learn More & Back -->
+    <p>
+      <a href="index.html" class="btn btn-secondary mt-4">← Back to Home</a>
+      <a href="https://en.wikipedia.org/wiki/Basketball" target="_blank" class="btn btn-outline-primary mt-4">Learn More</a>
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Outdoor Games Hub. All rights reserved.
+  </footer>
+
+</body>
+</html>

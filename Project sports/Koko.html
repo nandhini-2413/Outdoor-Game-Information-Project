@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kho-Kho - Outdoor Games Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to right, #fff7f0, #e0ffe6);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero {
+      background-image: url("koko1.webp");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: rgb(255, 255, 255);
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero h1, .hero h2 {
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+
+    .section-title {
+      color: #ff5722;
+    }
+
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+
+    footer {
+      background: linear-gradient(to right, #0066ff, #00ccff);
+      color: rgb(255, 255, 255);
+      padding: 10px 0;
+    }
+
+    .content {
+      padding: 40px 20px;
+    }
+
+    .short-version {
+      background-color: #ffe6f3;
+      border-left: 6px solid #4caf50;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    .short-version h4 {
+      color: #2e7d32;
+    }
+
+    .short-version p {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      color: #444444;
+    }
+
+    @media (max-width: 576px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero h2 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-screen hero section -->
+  <div class="hero">
+    <h1>Welcome to Kho-Kho World</h1>
+    <h2>Kho-Kho – The Game of Agility and Speed</h2>
+  </div>
+
+  <!-- Main content -->
+  <div class="container content">
+    <h3 class="section-title">What is Kho-Kho?</h3>
+    <p>
+      Kho-Kho is a traditional Indian tag sport that requires quick reflexes, speed, teamwork, and smart strategy. Played by two teams of 12 players each (9 active on the field), the game revolves around chasing and tagging the opposing team in a fast-paced format.
+    </p>
+    <p>
+      One team takes the chasing role, sitting in a straight line with alternating players facing opposite directions. A chaser runs around the field, tagging teammates to continue the chase, trying to touch or tag the runners from the opposing team.
+    </p>
+
+    <h4 class="mt-4 text-success">Key Features</h4>
+    <ul>
+      <li>Two teams of 12 players (9 play at a time)</li>
+      <li>Tag-based game on a rectangular field</li>
+      <li>Fast turns, direction switches, and strategic tagging</li>
+      <li>Focuses on agility, alertness, and teamwork</li>
+      <li>No equipment needed — just lines and players</li>
+    </ul>
+
+    <h4 class="mt-4 text-success">History & Growth</h4>
+    <p>
+      Kho-Kho originated in ancient India and was formally recognized during the early 20th century. It is governed today by the Kho-Kho Federation of India and is played nationally and in school-level competitions. Recent efforts are promoting Kho-Kho internationally with leagues like Ultimate Kho Kho.
+    </p>
+
+    <h4 class="mt-4 text-success">Why Kho-Kho Stands Out</h4>
+    <ul>
+      <li>Improves stamina, focus, and strategy</li>
+      <li>Teaches fast coordination and reaction</li>
+      <li>Promotes a strong sense of teamwork and discipline</li>
+      <li>Fun and inclusive for children and youth</li>
+    </ul>
+
+    <!-- Highlighted Short Version -->
+    <div class="short-version">
+      <h4>Short Version</h4>
+      <p>
+        Kho-Kho is a thrilling traditional Indian sport where teams alternate between chasing and running, requiring agility, speed, and tactical movement. It's simple, exciting, and deeply rooted in India's cultural legacy.
+      </p>
+    </div>
+  </div>
+      <p>
+        <a href="index.html" class="btn btn-secondary mt-4">← Back to Home</a>
+         <a href="https://en.wikipedia.org/wiki/Kho_kho" target="_blank" class="btn btn-outline-primary mt-4">Learn More</a>
+      </p>
+
+</body>
+</html>

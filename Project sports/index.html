@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Outdoor Games Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Outdoor Games Hub</a>
+    </div>
+  </nav>
+
+  <div class="hero text-center">
+    Welcome to the World of Outdoor Games
+  </div>
+
+  <div class="container my-5" id="games">
+    <h2 class="text-center text-primary fw-bold">Explore Outdoor Games</h2>
+
+    <div class="filter-container mt-4">
+      <input type="text" id="searchInput" class="form-control w-50" placeholder="Search for a game...">
+      <select id="categoryFilter" class="form-select w-25">
+        <option value="all">All Categories</option>
+        <option value="team">Team Sport</option>
+        <option value="individual">Individual Sport</option>
+        <option value="traditional">Traditional</option>
+        <option value="racquet">Racquet Sport</option>
+      </select>
+    </div>
+
+    <div class="row" id="gamesContainer">
+      <!-- Kabaddi Game Card with Hyperlink -->
+      <div class="col-md-4 mt-4 game-card" data-name="Kabaddi" data-category="traditional" data-details="Kabaddi is a traditional Indian game combining strength, strategy, and breath control.">
+        <div class="card">
+          <img src="kabaddi.webp" class="card-img-top" alt="Kabaddi">
+          <div class="card-body">
+            <h5 class="card-title">Kabaddi</h5>
+            <p class="card-text">Kabaddi is a fast-paced contact sport where players raid the opponent’s territory to tag defenders and return safely — all in a single breath. It combines strategy, stamina, and teamwork, and is a popular traditional sport in South Asia.</p>
+            <a href="Kabaddi1.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mt-4 game-card" data-name="Volleyball" data-category="traditional" data-details="Volleyball is a popular team game">
+        <div class="card">
+          <img src="volleyball2.jpeg" class="card-img-top" alt="volleyball">
+          <div class="card-body">
+            <h5 class="card-title">Volleyball</h5>
+            <p class="card-text">Volleyball is a popular team sport where two teams of six players are separated by a net and compete to ground the ball on the opponent’s court. The game is fast-paced and demands quick reflexes, teamwork, and coordination. It is played both indoors and on beaches around the world.
+
+           </p>
+            <a href="volleyball1.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4 mt-4 game-card" data-name="Kho Kho" data-category="traditional" data-details="Kho Kho is a Kho-Kho is one of India’s oldest and most loved traditional outdoor sports. It is played between two teams of 12 players, with 9 players from the chasing team entering the field at a time. The chasers sit in a row in the center of the field, alternately facing opposite directions.">
+        <div class="card">
+          <img src="koko.webp" class="card-img-top" alt="Kho Kho">
+          <div class="card-body">
+            <h5 class="card-title">Kho Kho</h5>
+            <p class="card-text">Kho-Kho is a traditional Indian chase-and-run sport that focuses on speed, agility, and teamwork. Players must tag opponents in a fast-paced format while following strict direction-based rules.
+
+
+
+           </p>
+            <a href="Koko.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Cricket Game Card -->
+      <div class="col-md-4 mt-4 game-card" data-name="Cricket" data-category="team" data-details="Cricket is played with 11 players per team and involves batting, bowling, and fielding.">
+        <div class="card">
+          <img src="cricket.webp" class="card-img-top" alt="Cricket">
+          <div class="card-body">
+            <h5 class="card-title">Cricket</h5>
+            <p class="card-text">Cricket is a bat-and-ball game played between two teams where the goal is to score the most runs. It involves batting, bowling, and fielding, and is one of the most popular sports globally, especially in countries like India, Australia, and England.</p>
+             <a href="Cricket.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mt-4 game-card" data-name="Baseball" data-category="traditional" data-details="Baseball is a team sport played between two teams of nine players each.">
+        <div class="card">
+          <img src="Baseball.jpeg" class="card-img-top" alt="Kabaddi">
+          <div class="card-body">
+            <h5 class="card-title">Baseball</h5>
+            <p class="card-text">Baseball is a bat-and-ball sport where two teams take turns batting and fielding. The goal is to score runs by hitting the ball and running around four bases arranged in a diamond shape. It’s widely popular in countries like the USA, Japan, and South Korea.
+
+.</p>
+            <a href="Baseball.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mt-4 game-card" data-name="Rugby" data-category="traditional" data-details="Rugby is a full-contact team sport played between two teams of 15 players (Rugby Union) or 13 players (Rugby League)">
+        <div class="card">
+          <img src="Rubby.jpeg" class="card-img-top" alt="Rugby">
+          <div class="card-body">
+            <h5 class="card-title">Rugby</h5>
+            <p class="card-text">Rugby is a physically intense team sport where players carry, pass, and kick an oval-shaped ball to score tries by grounding it in the opponent's goal area. It combines strength, speed, endurance, and strategy.
+
+</p>
+            <a href="Rugby.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mt-4 game-card" data-name="Tennis" data-category="traditional" data-details="Tennis is a high-paced racquet sport played by two (singles) or four players (doubles) on a rectangular court divided by a net.">
+        <div class="card">
+          <img src="Tennis.jpg" class="card-img-top" alt="Tennis">
+          <div class="card-body">
+            <h5 class="card-title">Tennis</h5>
+            <p class="card-text">Tennis is a fast-paced racquet sport where players hit a ball over a net aiming to score points by landing it in the opponent’s court. It can be played in singles or doubles and requires speed, precision, and strategy..</p>
+            <a href="Tennis.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mt-4 game-card" data-name="Hockey" data-category="traditional" data-details="Hockey is a dynamic and high-intensity team sport played in two main forms: Field Hockey and Ice Hockey. ">
+        <div class="card">
+          <img src="hockey.webp" class="card-img-top" alt="Kabaddi">
+          <div class="card-body">
+            <h5 class="card-title">Hockey</h5>
+            <p class="card-text">Hockey is a fast-paced team sport where players use sticks to control and shoot a ball or puck into the opponent's goal. It emphasizes speed, skill, teamwork, and strategic play. It exists in both field and ice formats.
+
+.</p>
+            <a href="Hockey.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mt-4 game-card" data-name="Football" data-category="traditional" data-details="Football (called soccer in some countries) is a globally celebrated team sport played between two teams of 11 players.">
+        <div class="card">
+          <img src="football.webp" class="card-img-top" alt="Football">
+          <div class="card-body">
+            <h5 class="card-title">Football</h5>
+            <p class="card-text">Football is the world’s most popular team sport where players aim to score goals by kicking a ball into the opposing team’s net. It emphasizes skill, teamwork, speed, and strategy — played in over 200 countries.</p>
+            <a href="Football.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mt-4 game-card" data-name="Archery" data-category="traditional" data-details="Archery is a precision sport in which athletes use a bow to shoot arrows at a circular target, scoring points based on how close the arrow lands to the center. It demands focus, breath control, and mental calmness.">
+        <div class="card">
+          <img src="Archey.jpeg" class="card-img-top" alt="Archery">
+          <div class="card-body">
+            <h5 class="card-title">Archery</h5>
+            <p class="card-text">Archery is a sport of focus and finesse, where players shoot arrows at a target to test accuracy. It is ancient, peaceful, and empowering — great for both competition and relaxation.</p>
+            <a href="Archey.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mt-4 game-card" data-name="Basketball" data-category="traditional" data-details="Basketball is a dynamic team sport played between two teams of five players each. The aim is to score points by shooting a ball through the opponent’s hoop, which is mounted 10 feet above the ground.">
+        <div class="card">
+          <img src="Basketball1.webp" class="card-img-top" alt="Basketball">
+          <div class="card-body">
+            <h5 class="card-title">Basketball</h5>
+            <p class="card-text">Basketball is a fast-paced team sport where players aim to score by shooting a ball into the opponent’s hoop. It emphasizes agility, teamwork, and strategic play, and is one of the world’s most popular and widely played sports.</p>
+            <a href="Basketball.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4 mt-4 game-card" data-name="Athletics" data-category="traditional" data-details="Athletics is a collection of sporting events involving competitive running, jumping, throwing, and walking. It’s often regarded as the foundation of all sports and is featured prominently in the Olympic Games.">
+        <div class="card">
+          <img src="Athletes.jpg" class="card-img-top" alt="Athletics">
+          <div class="card-body">
+            <h5 class="card-title">Athletes</h5>
+            <p class="card-text">Athletics is a collection of competitive sports events that test speed, strength, agility, and endurance. It includes running, jumping, and throwing disciplines, and is the core of major international competitions like the Olympics.</p>
+            <a href="Athletics.html" class="btn btn-primary" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+      
+      
+
+
+    
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="gameModal" tabindex="-1" aria-labelledby="gameModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="gameModalLabel">Game Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body" id="modalContent"></div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center py-3">
+    &copy; 2025 Outdoor Games Hub. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
